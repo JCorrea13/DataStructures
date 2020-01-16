@@ -121,7 +121,6 @@ function reemplazar (array){
 //Repetido
 
 function repetido(array){
-    let copy = [...array];
     let notfound = -1;
     for(i=0; i<array.length; i++){
         let found = array[i+1]
